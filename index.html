@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Hearts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="stars"></div>
+        <div class="interactive-hearts"></div>
+        <div class="tears-container"></div>
+        <div id="heartExplosion"></div>
+        <div id="frostOverlay" class="frost-overlay"></div>
+    </div>
+    <div class="container">
+        <h1>
+            <span class="text-wrapper">
+                <span class="letter">W</span>
+                <span class="letter">i</span>
+                <span class="letter">l</span>
+                <span class="letter">l</span>
+                <span class="letter"> </span>
+                <span class="letter you">y</span>
+                <span class="letter you">o</span>
+                <span class="letter you">u</span>
+                <span class="letter"> </span>
+                <span class="letter">b</span>
+                <span class="letter">e</span>
+                <span class="letter"> </span>
+                <span class="letter">m</span>
+                <span class="letter">y</span>
+                <span class="letter"> </span>
+                <span class="letter">V</span>
+                <span class="letter">a</span>
+                <span class="letter">l</span>
+                <span class="letter">e</span>
+                <span class="letter">n</span>
+                <span class="letter">t</span>
+                <span class="letter">i</span>
+                <span class="letter">n</span>
+                <span class="letter">e</span>
+                <span class="letter">?</span>
+            </span>
+        </h1>
+        <div id="quoteBox"></div>
+        <div class="buttons">
+            <button id="yesButton" class="button">Yes</button>
+            <button id="noButton" class="button">No</button>
+        </div>
+        <div class="character">
+            <img src="bear.png" alt="Cute Bear" class="character-img">
+            <div class="character-message" id="characterMessage">Welcome! 💖</div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <p id="modalMessage">You make me the happiest bear in the world! 🐻💖</p>
+                <div class="confetti-container"></div>
+                <button id="closeModalButton" class="button">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
